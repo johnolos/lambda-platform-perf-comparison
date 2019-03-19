@@ -2,7 +2,7 @@
 declare -a folders=("csharp" "csharp2" "fsharp" "fsharp2" "go" "java" "python" "python3" "nodejs4" "nodejs6", "python-go")
 
 export AWS_PROFILE=default
-export AWS_REGION=us-east-1
+export AWS_REGION=eu-west-1
 
 for i in `seq 1 11`;
 do
@@ -10,7 +10,7 @@ do
   do
     cd $folder
     pwd
-    
+
     sls deploy --region $AWS_REGION
 
     cd ..
