@@ -19,7 +19,7 @@ service: aws-csharp2
 
 provider:
   name: aws
-  runtime: dotnetcore2.0
+  runtime: dotnetcore2.1
 
 # you can overwrite defaults here
 #  stage: dev
