@@ -1,0 +1,19 @@
+
+service: aws-rust
+provider:
+  name: aws
+  runtime: rust
+
+package:
+  individually: true
+
+plugins:
+  - serverless-rust
+
+functions:
+  hello:
+    handler: hello
+    events:
+      - http:
+          path: /
+          method: get
