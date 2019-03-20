@@ -1,7 +1,9 @@
 service: aws-java-maven
+
 provider:
   name: aws
   runtime: java8
+
 package:
   artifact: target/hello-dev.jar
 

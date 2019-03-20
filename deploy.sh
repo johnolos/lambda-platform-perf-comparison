@@ -1,8 +1,8 @@
 #!/bin/bash
-declare -a folders=("csharp2""fsharp2" "go" "java" "python" "python3" "nodejs6", "nodejs8", "rust")
+declare -a folders=("go" "java" "python3" "nodejs8", "rust")
 
 export AWS_PROFILE=default
-export AWS_REGION=eu-west-1
+export AWS_REGION=us-east-1
 
 for i in `seq 1 11`;
 do
