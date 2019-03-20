@@ -1,14 +1,14 @@
-service: aws-java-maven
+service: aws-java-maven-fibonacci
 
 provider:
   name: aws
   runtime: java8
 
 package:
-  artifact: target/hello-dev.jar
+  artifact: target/fibonacci-dev.jar
 
 functions:
-  hello:
+  fibonacci:
     handler: com.serverless.Handler
     events:
       - http:

@@ -1,12 +1,12 @@
-service: aws-nodejs8
+service: aws-nodejs8-fibonacci
 
 provider:
   name: aws
   runtime: nodejs8.10
 
 functions:
-  hello:
-    handler: handler.hello
+  fibonacci:
+    handler: handler.fibonacci
     events:
       - http:
           path: /
