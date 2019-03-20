@@ -3,6 +3,7 @@ service: aws-java-maven-fibonacci
 provider:
   name: aws
   runtime: java8
+  timeout: 30
 
 package:
   artifact: target/fibonacci-dev.jar

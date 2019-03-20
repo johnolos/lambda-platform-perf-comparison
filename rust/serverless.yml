@@ -3,6 +3,7 @@ service: aws-rust-fibonacci
 provider:
   name: aws
   runtime: rust
+  timeout: 30
 
 package:
   individually: true

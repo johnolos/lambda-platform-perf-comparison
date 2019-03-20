@@ -20,6 +20,7 @@ service: aws-python3-fibonacci # NOTE: update this with your service name
 provider:
   name: aws
   runtime: python3.6
+  timeout: 30
 
 # you can overwrite defaults here
 #  stage: dev
