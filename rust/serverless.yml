@@ -11,8 +11,8 @@ plugins:
   - serverless-rust
 
 functions:
-  hello:
-    handler: hello
+  fibonacci:
+    handler: fibonacci
     events:
       - http:
           path: /

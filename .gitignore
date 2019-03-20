@@ -6,6 +6,7 @@
 .idea/
 
 apis.txt
+fibonacci_apis.txt
 *.iml
 *.ipr
 
