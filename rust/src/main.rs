@@ -18,5 +18,5 @@ fn main() {
 }
 
 fn handler(_e: Request, _c: Context) -> Result<impl IntoResponse, HandlerError> {
-    Ok(Response::new(fibonacci(200).to_string()))
+    Ok(Response::new(fibonacci(35).to_string()))
 }
